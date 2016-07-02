@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013E54B71D283F9C005175EC /* MRScuuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013E54B51D283F9C005175EC /* MRScuuessViewController.m */; };
+		013E54B81D283F9C005175EC /* MRScuuessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013E54B61D283F9C005175EC /* MRScuuessViewController.xib */; };
 		6001CC8C1D01B276008A6877 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6001CC831D01B275008A6877 /* ViewController.m */; };
 		6001CC8D1D01B276008A6877 /* MRGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6001CC861D01B276008A6877 /* MRGesture.m */; };
 		6001CC8E1D01B276008A6877 /* MRGestureBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6001CC891D01B276008A6877 /* MRGestureBgView.m */; };
@@ -38,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		013E54B41D283F9C005175EC /* MRScuuessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRScuuessViewController.h; sourceTree = "<group>"; };
+		013E54B51D283F9C005175EC /* MRScuuessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRScuuessViewController.m; sourceTree = "<group>"; };
+		013E54B61D283F9C005175EC /* MRScuuessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRScuuessViewController.xib; sourceTree = "<group>"; };
 		6001CC821D01B275008A6877 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6001CC831D01B275008A6877 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6001CC851D01B276008A6877 /* MRGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRGesture.h; sourceTree = "<group>"; };
@@ -102,6 +107,9 @@
 			children = (
 				6001CC821D01B275008A6877 /* ViewController.h */,
 				6001CC831D01B275008A6877 /* ViewController.m */,
+				013E54B41D283F9C005175EC /* MRScuuessViewController.h */,
+				013E54B51D283F9C005175EC /* MRScuuessViewController.m */,
+				013E54B61D283F9C005175EC /* MRScuuessViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -292,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				602C19701D017E88008971CB /* LaunchScreen.storyboard in Resources */,
+				013E54B81D283F9C005175EC /* MRScuuessViewController.xib in Resources */,
 				602C196D1D017E88008971CB /* Assets.xcassets in Resources */,
 				602C196B1D017E88008971CB /* Main.storyboard in Resources */,
 			);
@@ -322,6 +331,7 @@
 				6001CC8F1D01B276008A6877 /* MRGestureView.m in Sources */,
 				6001CC8C1D01B276008A6877 /* ViewController.m in Sources */,
 				6001CC8E1D01B276008A6877 /* MRGestureBgView.m in Sources */,
+				013E54B71D283F9C005175EC /* MRScuuessViewController.m in Sources */,
 				602C19651D017E88008971CB /* AppDelegate.m in Sources */,
 				602C19621D017E88008971CB /* main.m in Sources */,
 			);

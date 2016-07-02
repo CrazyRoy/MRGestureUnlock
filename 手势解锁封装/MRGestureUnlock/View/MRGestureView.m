@@ -235,7 +235,7 @@
             [[UIColor blueColor] set];
             
             // 如果实现了解锁成功的代理方法
-            if([self.delegate respondsToSelector:@selector(gestureViewUnlockSuccess)]) {
+            if([self.delegate respondsToSelector:@selector(gestureViewUnlockSuccess:)]) {
                 
                 [self.delegate gestureViewUnlockSuccess:self];
                 NSLog(@"成功");

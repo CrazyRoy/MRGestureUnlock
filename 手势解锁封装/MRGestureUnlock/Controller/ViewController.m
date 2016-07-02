@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MRGestureBgView.h"
+#import "MRScuuessViewController.h"
 #import "MRGestureView.h"
 #import "MRGesture.h"
 
@@ -66,7 +67,7 @@
 
 - (void)gestureViewUnlockSuccess:(MRGestureView *)gestureView {
     
-    NSLog(@"跳转页面");
+    [self presentViewController:[[MRScuuessViewController alloc] init] animated:YES completion:nil];
     
 }
 
